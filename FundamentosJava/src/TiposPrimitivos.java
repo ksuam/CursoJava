@@ -55,6 +55,31 @@ public class TiposPrimitivos {
         System.out.println("varchardecimal: "+varCharDecimal);
 
 
+        //Tipo boolean
+
+        boolean miVariableBoolean = false;
+        System.out.println("Variable booolean"+ miVariableBoolean);
+
+        if(miVariableBoolean){
+            System.out.println("la bandera es verdadera");
+
+        }else{
+            System.out.println("la bandera es falsa");
+        }
+
+
+        //CONVERSIONES DE TIPOS DE DATO PRIMITIVOS
+
+        //convertir de tipo String a tipo entero
+        var edad = Integer.parseInt("20");
+        System.out.println("Edad: "+ (edad+1));
+
+        //convertir de tipo String a tipo double
+        var valorPi = Double.parseDouble("3.1416");
+        System.out.println("Pi: "+ valorPi);
+
+
+
 
 
 
