@@ -50,7 +50,7 @@ public class TiposPrimitivos {
         char varChar = '\u0021';  // se usa backslashu para indicar que se va a usar unicode
         System.out.println("Variable unicode: "+varChar);
         
-        // cahr en codigo decimal
+        // char en codigo decimal
         char varCharDecimal = 33;
         System.out.println("varchardecimal: "+varCharDecimal);
 
