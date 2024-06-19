@@ -95,7 +95,10 @@ public class TiposPrimitivos {
 
         System.out.println("Digite un cadena:");
         caracter = consola.nextLine().charAt(0); // Retornar el caracter en la posicion 0 de la cadena recuperada
-        System.out.println("El caracter es: "+caracter);
+        System.out.println("El caracter es: "+ caracter);
+
+        
+
 
 
 
