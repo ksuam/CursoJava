@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class TiposPrimitivos {
     public static void main(String args[]){
 
@@ -77,6 +79,24 @@ public class TiposPrimitivos {
         //convertir de tipo String a tipo double
         var valorPi = Double.parseDouble("3.1416");
         System.out.println("Pi: "+ valorPi);
+
+        //pedir un valor
+        Scanner consola = new Scanner(System.in);
+        System.out.println("Digite su edad:");
+        edad = Integer.parseInt(consola.nextLine());
+
+
+        // Convertir de tipo int a String
+
+        var edadText = String.valueOf(10);
+
+        var caracter = "hola".charAt(0); // Devolver el valor en la posicion cero de la cadena
+        System.out.println(caracter);
+
+        System.out.println("Digite un cadena:");
+        caracter = consola.nextLine().charAt(0); // Retornar el caracter en la posicion 0 de la cadena recuperada
+        System.out.println("El caracter es: "+caracter);
+
 
 
 
